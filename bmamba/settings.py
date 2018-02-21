@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'bmamba.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbdaofkamskijd',
+        'USER': 'bnxvaqyosqlrip',
+        'PASSWORD': '9f2ea14489ef85c09513bac0a13ffade87a1e4ee9a306b55f1bff0c6bfe2a655',
+        'HOST': 'ec2-174-129-221-240.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
